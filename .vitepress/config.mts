@@ -8,17 +8,29 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Examples', link: '/markdown-examples' },
+      { text: 'Clean', link: '/clean-code' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '코드 잘짜기!',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Clean', link: '/clean-code' }
         ]
-      }
+      },
+      {
+        text: '모던리액트딥다이브',
+        items: [
+          { text: '리액트와 상태 관리 라이브러리', link: 'modern/' },
+          { text: 'React 랜더링', link: '/' },
+          { text: 'Reflow와 Repaint', link: '/modern/reflow' },
+          { text: '구조 분해 할당', link: '/' },
+          { text: '서버사이드', link: '/modern/serverside' },
+          { text: '', link: '/' },
+        ]
+      },
+
     ],
 
     socialLinks: [
