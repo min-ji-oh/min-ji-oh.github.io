@@ -10,14 +10,15 @@ hero:
     alt: 로고 이미지
   actions:
     - theme: brand
+      text: Career
+      link: https://github.com/min-ji-oh
+
+    - theme: alt
       text: 클린 코드 학습
       link: /clean-code
     - theme: alt
       text: 모던 웹 개발
       link: /modern
-    - theme: alt
-      text: GitHub
-      link: https://github.com/min-ji-oh
 
 features:
   - icon: 🚀
@@ -36,11 +37,11 @@ features:
     title: 학습 리소스
     details: 개발 실력 향상을 위한 책, 강의, 블로그 등 추천 학습 리소스 모음
 
-footer: MIT Licensed | Copyright © 2025 Min-Ji Oh
+footer:  Copyright © 2025 Min-Ji Oh
 ---
 
 ## 최근 업데이트 📝
 
-- [클린 코드: 변수 네이밍 컨벤션](/clean-code/naming)
-- [Next.js 13 서버 컴포넌트 이해하기](/modern/nextjs-server-components)
-- [효율적인 상태 관리 전략](/modern/state-management)
+- [클린 코드: 변수 네이밍 컨벤션](/clean-code)
+- [Next.js 13 서버 컴포넌트 이해하기](/modern/serverside)
+- [효율적인 상태 관리 전략](/modern/state)
