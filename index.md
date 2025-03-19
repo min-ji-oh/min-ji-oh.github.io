@@ -10,32 +10,27 @@ hero:
     alt: 로고 이미지
   actions:
     - theme: brand
-      text: Career
+      text: 경력이력
       link: https://github.com/min-ji-oh
-
     - theme: alt
-      text: 클린 코드 학습
+      text: 학습 페이지
       link: /clean-code
-    - theme: alt
-      text: 모던 웹 개발
-      link: /modern
 
 features:
-  - icon: 🚀
-    title: Next.js
-    details: 서버 컴포넌트, 라우팅, 데이터 페칭 등 Next.js 프레임워크의 핵심 개념과 실전 적용법
+  - icon: 💻
+    title: 프론트엔드 개발
+    details: React, Next.js, TypeScript을 활용한 모던 웹 애플리케이션 개발 및 최적화 경험
+    # link: /projects/frontend
     
-  - icon: 🧹
-    title: 클린 코드
-    details: 가독성이 높고 유지보수가 쉬운 코드를 작성하기 위한 원칙과 실천 방법 모음
+  - icon: 🎨
+    title: UI/UX 설계
+    details: Figma와 Tailwind CSS를 활용한 직관적이고 반응형 인터페이스 구현
     
-  - icon: 🛠️
-    title: 개발 도구
-    details: 생산성을 높여주는 최신 개발 도구와 환경 설정 가이드
+  - icon: 🔍
+    title: 코드 품질 관리
+    details: 클린 코드 원칙과 디자인 패턴을 적용한 유지보수가 용이한 코드베이스 구축
+    link: /clean-code
     
-  - icon: 📚
-    title: 학습 리소스
-    details: 개발 실력 향상을 위한 책, 강의, 블로그 등 추천 학습 리소스 모음
 
 footer:  Copyright © 2025 Min-Ji Oh
 ---
